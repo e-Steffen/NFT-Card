@@ -1,0 +1,7 @@
+:root {
+    --background-Col: cyan;
+}
+
+body {
+    background-color: var(--background-Col);
+}
