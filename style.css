@@ -1,7 +1,48 @@
 :root {
-    --background-Col: cyan;
+  --color-white: #fff;
+  --color-soft-blue: #8bacd9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.5rem;
 }
 
 body {
-    background-color: var(--background-Col);
+  display: flex;
+  min-height: 100dvh;
+  background-color: #0d192c;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px 0 24px;
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  color: var(--color-white);
+  font-size: 1rem;
+  margin: 1.5rem 0 0.75rem 0;
+}
+
+.card {
+  background-color: #15263f;
+  /* width: 327px;
+    height: 543px; */
+  border-radius: 15px;
+  padding: 24px 24px 0 24px;
+}
+
+.hero {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-description {
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.625rem;
+  color: var(--color-soft-blue);
+  margin-bottom: 1rem;
 }
