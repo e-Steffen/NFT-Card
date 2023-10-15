@@ -7,22 +7,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1.5rem;
 }
 
 body {
   display: flex;
-  min-height: 100dvh;
+  min-height: 100dvh; /* dynamic viewport hight (also available as width) */
   background-color: #0d192c;
   align-items: center;
   justify-content: center;
   padding: 0 24px 0 24px;
+
   font-family: "Outfit", sans-serif;
 }
 
 h1 {
   color: var(--color-white);
-  font-size: 1rem;
+  font-size: 1.375rem;
   margin: 1.5rem 0 0.75rem 0;
 }
 
@@ -45,4 +45,32 @@ h1 {
   line-height: 1.625rem;
   color: var(--color-soft-blue);
   margin-bottom: 1rem;
+}
+
+.trade {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 0.0625rem #2e405a;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.balance,
+.countdown {
+  display: flex;
+  align-items: center;
+}
+
+.balance span {
+  color: #00fff8;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin-left: 0.4375rem;
+}
+
+.countdown span {
+  color: #8bacd9;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  margin-left: 0.4375rem;
 }
