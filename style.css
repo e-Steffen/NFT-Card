@@ -12,7 +12,7 @@
 
 body {
   display: flex;
-  min-height: 100dvh; /* dynamic viewport hight (also available as width) */
+  min-height: 100dvh; /* dynamic viewport hight (also available as width - dvw) */
   background-color: #0d192c;
   align-items: center;
   justify-content: center;
